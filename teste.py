@@ -1,6 +1,8 @@
-from assets.module.usuario import user
+from assets.module.convert import convert_png
 from assets.biblioteca import *
+
+
+a = "\\Downloads\\O_metaverso_do_ESG.pdf"
     
-user.criar_diretorio()
-user.escrita()
-user.leitura()
+convert_png.converter_pdf_para_images(a)
+

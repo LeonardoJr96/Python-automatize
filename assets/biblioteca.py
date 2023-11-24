@@ -22,4 +22,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from seleniumbase import BaseCase
 
-from collections import UserDict 
+from collections import UserDict
+from pdf2image import convert_from_path
+import base64
+
+import shutil
+import glob
