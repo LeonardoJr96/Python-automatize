@@ -1,6 +1,5 @@
 from assets.module import arquive
 from assets.module import arquive_zip
-from assets.module import arquive_convert
 from assets.module import arquive_email
 from assets.module import arquive_visualization
 
