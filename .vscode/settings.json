@@ -5,6 +5,7 @@
         "caminho",
         "Instalação",
         "pyautogui",
+        "pymysql",
         "seleniumbase"
     ]
 }
